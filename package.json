@@ -1,0 +1,28 @@
+{
+  "name": "oauth-proxy",
+  "version": "1.0.0",
+  "description": "a general purpose proxy to forward OAuth responses to custom urls",
+  "engines": {
+    "node": "11.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "PORT=10001 node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "oauth"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supermamon/oauth-proxy"
+  },
+  "author": "Raymond Velasquez <at.supermamon@gmail.com> (https://supermamon.com)",
+  "license": "ISC",
+  "dependencies": {
+    "append-query": "^2.0.1",
+    "qs": "^6.6.0",
+    "restify": "^8.0.0",
+    "restify-errors": "^7.0.0"
+  }
+}
