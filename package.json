@@ -1,6 +1,6 @@
 {
   "name": "oauth-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a general purpose proxy to forward OAuth responses to custom urls",
   "engines": {
     "node": "11.x"
@@ -21,7 +21,6 @@
   "license": "ISC",
   "dependencies": {
     "append-query": "^2.0.1",
-    "qs": "^6.6.0",
     "restify": "^8.0.0",
     "restify-errors": "^7.0.0"
   }
