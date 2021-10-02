@@ -1,10 +1,7 @@
 {
   "name": "oauth-proxy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "a general purpose proxy to forward OAuth responses to custom urls",
-  "engines": {
-    "node": "11.x"
-  },
   "main": "index.js",
   "scripts": {
     "start:dev": "PORT=10001 node index.js",
@@ -23,5 +20,8 @@
     "append-query": "^2.0.1",
     "restify": "^8.0.0",
     "restify-errors": "^7.0.0"
+  },
+  "resolutions": {
+    "mixme": "^0.5.2"
   }
 }
