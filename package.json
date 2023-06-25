@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "append-query": "^2.0.1",
-    "restify": "^8.0.0",
+    "restify": "^11.1.0",
     "restify-errors": "^7.0.0"
   }
 }
